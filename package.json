@@ -1,0 +1,32 @@
+{
+  "name": "veganbot",
+  "version": "1.0.0",
+  "description": "My first discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodry7/DiscordBotNodeJS.git"
+  },
+  "keywords": [
+    "Discord",
+    "NodeJS",
+    "Bot"
+  ],
+  "author": "Rodrigo Alvarado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodry7/DiscordBotNodeJS/issues"
+  },
+  "homepage": "https://github.com/rodry7/DiscordBotNodeJS#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg-static": "^4.2.7",
+    "request": "^2.88.2"
+  }
+}
