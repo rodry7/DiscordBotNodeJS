@@ -10,7 +10,7 @@ Object.keys(botCommands).map(key => {
 
 const TOKEN = process.env.TOKEN;
 
-bot.login(TOKEN);
+bot.login(TOKEN); // Comentario nuevo
 
 bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
